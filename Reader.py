@@ -21,4 +21,13 @@ def USB_Reader():
 	print("-----------")
     ser.close()
 
-USB_Reader()
+
+
+
+def runner():
+    flag = True
+    while flag == True:
+	USB_Reader()
+
+
+runner()
